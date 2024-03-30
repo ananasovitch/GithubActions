@@ -27,7 +27,7 @@ public class BoundaryServiceTest {
     @DisplayName("Проверка метода findMin с одним положительным числом")
     public void testFindMinWithSinglePositiveNumber() {
         BoundaryService boundaryService = new BoundaryService();
-        int[] marks = {10};
+        int[] marks = {-1};  //сломал тест
         assertEquals(10, boundaryService.findMin(marks));
     }
 
